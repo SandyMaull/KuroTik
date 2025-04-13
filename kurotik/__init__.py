@@ -1,3 +1,14 @@
+# ==============================================================================
+#  ©2025 Kuronekosan. All Rights Reserved.
+#
+#  Packages:    kurotik
+#  Author:      Kuronekosan
+#  Created:     2025
+#
+#  Description:
+#      A Custom Mikrotik Packages for automatic enabled/disabled block script
+# ==============================================================================
+
 from .kurotik import KuroTik
 from .utils.redis import KuroTikRedis
 from .utils.db_conn import DatabaseConnection as DBConn

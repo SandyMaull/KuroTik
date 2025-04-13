@@ -1,3 +1,14 @@
+# ==============================================================================
+#  ©2025 Kuronekosan. All Rights Reserved.
+#
+#  Packages:    kurotik
+#  Author:      Kuronekosan
+#  Created:     2025
+#
+#  Description:
+#      A Custom Mikrotik Packages for automatic enabled/disabled block script
+# ==============================================================================
+
 from setuptools import setup, find_packages
 
 setup(
