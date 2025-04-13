@@ -4,10 +4,7 @@ setup(
     name="KuroTik",
     version="0.1",
     packages=find_packages(),
-    install_requires=[
-        "RouterOS-api",
-        "redis"
-    ],
+    install_requires=["RouterOS-api", "redis", "SQLAlchemy", "passlib", "pydantic"],
     author="Kuro",
     author_email="kuro@kuronekosan.web.id",
     description="A Custom Mikrotik Packages for automatic enabled/disabled block script",
@@ -17,5 +14,5 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.12',
+    python_requires=">=3.12",
 )
