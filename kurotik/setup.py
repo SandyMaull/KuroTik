@@ -5,7 +5,8 @@ setup(
     version="0.1",
     packages=find_packages(),
     install_requires=[
-        "RouterOS-api"
+        "RouterOS-api",
+        "redis"
     ],
     author="Kuro",
     author_email="kuro@kuronekosan.web.id",
